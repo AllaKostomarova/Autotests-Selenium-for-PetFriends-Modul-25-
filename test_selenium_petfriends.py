@@ -26,7 +26,7 @@ def test_show_all_pets():
 
    # Проверяем, что на странице есть фотографии питомцев, имена, порода (вид) и возраст питомцев не пустые строки:
    for i in range(len(names)):
-      assert images[i].get_attribute('src') 1= ''
+      assert images[i].get_attribute('src') != ''
       assert names[i].text != ''
       assert descriptions[i].text != ''
       parts = descriptions[i].text.split(", ")
