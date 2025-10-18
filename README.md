@@ -29,7 +29,7 @@ pytest -v
 
 Структура  
 selenium_25modul/  
-├── tests/ 
+├── tests/  
 │   ├── test_selenium_petfriends.py      # два теста: all pets / my pets  
 │   └── conftest.py                       # фикстура браузера, размеры окна  
 ├── requirements.txt  
@@ -40,4 +40,5 @@ selenium_25modul/
 - главная со списком всех питомцев, 
 - страница «Мои питомцы». 
 Данные/учётные записи — тестовые.  
+
 Версии браузера и ОС не фиксированы; рекомендуется актуальный Chrome/Chromedriver. 
